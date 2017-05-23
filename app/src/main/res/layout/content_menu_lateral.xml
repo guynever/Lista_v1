@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.guynever.lista_v1.MenuLateral"
+    tools:showIn="@layout/app_bar_menu_lateral">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="100dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Minhas Listas"
+            android:textAlignment="center"
+            android:textSize="30dp"
+            android:textColor="@color/letra"/>
+
+        <ListView
+            android:id="@+id/MinhasListas"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_height="270dp"
+            android:layout_marginTop="20dp">
+        </ListView>
+
+    </LinearLayout>
+
+</LinearLayout>
